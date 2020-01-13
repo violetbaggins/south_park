@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color:peachpuff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+}
+h1{
+    color:lightcoral;
+    text-align: center;
+}
+ul li{
+    list-style:circle;
+}
+/*nav a{
+    text-decoration: none;
+    color: white
+    display:inline-block;
+}
+nav a:hover{
+    text-decoration: none;
+    color: lightskyblue;
+}*/
+header{
+    display:block;
+    background-color: lightcoral;
+    padding-right: 20px;
+}
+
+/*.container {
+	max-width: 1200px;
+    margin: auto;
+    background-color:lightcoral;
+}*/
+.user-box{
+    border:solid white 1px;
+    background-color:lightcoral;
+    padding:5px auto;
+}
+.user-box img{
+    width: 50%;
+    /*border-radius: 100px;*/
+}
+.titulo-usuario{
+    bottom:5px;
+    left:5px;
+    color:#FFF;
+}
+.card-header{
+    padding: 0;
+}
+
+
+.card-header{
+    background-color: lightgoldenrodyellow ;
+    color:lightseagreen;
+}
+.content-right{
+    background-color: lightyellow ;
+}
+.card{
+    border: solid lightseagreen 1px;
+}
+.btn-link{
+    color:lightseagreen;
+    text-decoration: none;
+}
+.btn-link:hover{
+    color:salmon;
+    text-decoration: none;
+}
+.card-img-top{
+    height:100%;
+}
