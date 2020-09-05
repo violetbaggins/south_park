@@ -7,7 +7,7 @@ const path = require('path');
 //para guardar los datos en users.json***
 const storageDisk = multer.diskStorage({
 	destination: (req, file, cb) => {
-		cb(null, __dirname + '/../../public/images/avatars');
+		cb(null, __dirname + '/../public/images/avatars');
 	},
 	filename: (req, file, cb) => {
 		let imageFinalName = `user_avatar_${Date.now()}${path.extname(file.originalname)}`;

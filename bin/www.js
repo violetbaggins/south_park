@@ -5,7 +5,7 @@
  */
 
  /* Esto es un modulo y si en el APP.JS no esta el export module no levanta el server */
-const app = require('../index');
+const app = require('../app');
 const debug = require('debug')('baseapphtml:server');
 const http = require('http');
 

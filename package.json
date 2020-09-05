@@ -4,7 +4,7 @@
   "description": "Pruebas de registro y login desde 0 copiando los archivos base de DH",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./src/bin/www"
+    "start": "nodemon bin/www"
   },
   "author": "Pola Rocks",
   "license": "ISC",
